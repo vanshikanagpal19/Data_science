@@ -1,4 +1,5 @@
-import smtplib
+import smtplib   #smtplib Python ka built-in module hai jo emails send karne ke liye use hota hai via SMTP protocol.
+
 try:
     server = smtplib.SMTP("smtp.gmail.com",port=587)
     server.starttls()         #server start krne ke liye function
